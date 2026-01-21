@@ -1,82 +1,73 @@
+# 🚀 Frontend Developer Internship Task – Full Stack Task Manager
+## 🌐 Live Demo
 
+🚀 **Deployed Application:**  
+👉 https://task-buddy-app.onrender.com/
 
-## Project 
+> The application is fully deployed and functional.  
+> Users can register, log in, and manage tasks through a secure, protected dashboard.
 
-**URL**: https://task-buddy-app.onrender.com/
+A **production-ready full-stack web application** demonstrating real-world frontend and backend engineering skills.  
+This project includes authentication, protected routes, CRUD operations, clean architecture, and scalability considerations.
 
-🚀 Frontend Developer Internship Task – Full-Stack Task Manager
+---
 
-A production-ready full-stack web application built using modern frontend and backend technologies.
-This project demonstrates real-world engineering skills, including authentication, protected routes, CRUD operations, frontend–backend integration, and scalability considerations.
+## 📌 Project Overview
 
-📌 Project Overview
+This application is a **Task Management System** where users can:
 
-This application is a Task Management System where users can:
+- Register and log in securely
+- Access a protected dashboard
+- Create, view, update, and delete tasks
+- Manage their user profile
+- Use the app on both mobile and desktop devices
 
-Register & login securely
+The project is designed following **modern best practices**, suitable for internship and entry-level developer evaluation.
 
-Access a protected dashboard
+---
 
-Manage their personal tasks (CRUD)
+## 🧱 Tech Stack
 
-View and update their profile
+### Frontend
+- React.js (Vite)
+- Tailwind CSS
+- Axios
+- React Router DOM
 
-Experience a responsive, modern UI
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- bcrypt (password hashing)
+- dotenv
+- cors
 
-The project follows industry best practices in code structure, security, scalability, and documentation.
+---
 
-🧱 Tech Stack
-Frontend
-
-React.js (Vite)
-
-Tailwind CSS
-
-Axios
-
-React Router DOM
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB (Mongoose)
-
-JWT Authentication
-
-bcrypt (password hashing)
-
-dotenv
-
-cors
-
+## 📁 Project Structure
 frontend-developer-task/
 ├── frontend/
-│   ├── src/
-│   │   ├── components/        # Reusable UI components
-│   │   ├── pages/             # Page-level components
-│   │   ├── services/          # API service layer (Axios)
-│   │   ├── hooks/             # Custom React hooks
-│   │   ├── utils/             # Utility helpers
-│   │   └── App.jsx
-│   ├── tailwind.config.js
-│   └── package.json
+│ ├── src/
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Login, Register, Dashboard
+│ │ ├── services/ # Axios API layer
+│ │ ├── hooks/ # Custom React hooks
+│ │ ├── utils/ # Helper utilities
+│ │ └── App.jsx
+│ ├── tailwind.config.js
+│ └── package.json
 │
 ├── backend/
-│   ├── src/
-│   │   ├── routes/            # Express routes
-│   │   ├── controllers/       # Business logic
-│   │   ├── models/            # Mongoose schemas
-│   │   ├── middleware/        # Auth & error middleware
-│   │   ├── config/            # DB & environment config
-│   │   └── server.js
-│   └── package.json
+│ ├── src/
+│ │ ├── routes/ # API routes
+│ │ ├── controllers/ # Business logic
+│ │ ├── models/ # MongoDB schemas
+│ │ ├── middleware/ # Auth & error handling
+│ │ ├── config/ # Database config
+│ │ └── server.js
+│ └── package.json
 │
 ├── postman_collection.json
 ├── README.md
 └── SCALING_NOTES.md
-
-
-
