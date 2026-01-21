@@ -1,13 +1,12 @@
-staticSites:
-  - name: task-buddy-app
+services:
+  - type: web
+    name: task-buddy-app
+    env: node
+    plan: free
+
     rootDir: task-buddy-app-874
     buildCommand: npm install && npm run build
-    publishDir: dist
-
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    startCommand: npx serve -s dist
 
     envVars:
       - key: VITE_SUPABASE_URL
