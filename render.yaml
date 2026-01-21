@@ -1,9 +1,8 @@
-services:
-  - type: static
-    name: task-buddy-app
+staticSites:
+  - name: task-buddy-app
     rootDir: task-buddy-app-874
     buildCommand: npm install && npm run build
-    staticPublishPath: dist
+    publishDir: dist
 
     routes:
       - type: rewrite
