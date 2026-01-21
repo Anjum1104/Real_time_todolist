@@ -1,5 +1,5 @@
 services:
-  - type: static
+  - type: web
     name: task-buddy-app
     rootDir: task-buddy-app-874
     buildCommand: npm install && npm run build
