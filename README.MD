@@ -1,4 +1,4 @@
-# 🚀 Frontend Developer Internship Task – Full Stack Task Manager
+# 🚀 Frontend Developer Task – Full Stack Task Manager
 ## 🌐 Live Demo
 
 🚀 **Deployed Application:**  
