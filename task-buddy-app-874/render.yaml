@@ -1,5 +1,6 @@
 staticSites:
   - name: task-buddy-app
+    rootDirectory: task-buddy-app-874
     buildCommand: npm install && npm run build
     publishDir: dist
     routes:
